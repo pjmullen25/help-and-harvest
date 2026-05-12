@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const ORDER_EMAIL = "hello@helpandharvestfarm.com";
+const ORDER_EMAIL = "hello@helpandharvest.com";
 const EGG_PRICE = "$5";
 
 const orderMailto = `mailto:${ORDER_EMAIL}?subject=Egg%20Order%20Request&body=Hi%20Help%20%26%20Harvest%2C%0A%0AI%20would%20like%20to%20order%20eggs.%0A%0ANumber%20of%20dozens%3A%0ALocation%3A%0APickup%20or%20Monday%20delivery%3A%0A%0AThank%20you!`;
@@ -30,11 +30,12 @@ export default function HelpHarvestEggsWebsite() {
       <header className="sticky top-0 z-40 border-b border-[#e7ddc4] bg-[#fbf8ef]/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#e8c96a] text-[#2f2a1f] shadow-sm">
-              <IconEgg className="h-6 w-6" />
-            </div>
-            <div>
-              <p className="text-lg font-bold leading-none">Help & Harvest</p>
+            <img
+              src="/help-harvest-logo.png"
+              alt="Help & Harvest logo"
+              className="h-14 w-auto object-contain md:h-16"
+            />
+            <div className="hidden sm:block">
               <p className="text-xs tracking-wide text-[#6f654c]">Farm Fresh Eggs • Kuna, Idaho</p>
             </div>
           </div>
