@@ -33,7 +33,7 @@ export default function HelpHarvestEggsWebsite() {
             <img
               src="/help-harvest-logo.png"
               alt="Help & Harvest logo"
-              className="h-14 w-auto object-contain md:h-16"
+              className="h-20 w-auto object-contain md:h-24"
             />
             <div className="hidden sm:block">
               <p className="text-xs tracking-wide text-[#6f654c]">Farm Fresh Eggs • Kuna, Idaho</p>
