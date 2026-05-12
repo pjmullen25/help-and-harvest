@@ -29,16 +29,13 @@ export default function HelpHarvestEggsWebsite() {
     <div className="min-h-screen bg-[#fbf8ef] text-[#2f2a1f]">
       <header className="sticky top-0 z-40 border-b border-[#e7ddc4] bg-[#fbf8ef]/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
-          <div className="flex items-center gap-3">
-            <img
-              src="/help-harvest-logo.png"
-              alt="Help & Harvest logo"
-              className="h-20 w-auto object-contain md:h-24"
-            />
-            <div className="hidden sm:block">
-              <p className="text-xs tracking-wide text-[#6f654c]">Farm Fresh Eggs • Kuna, Idaho</p>
-            </div>
-          </div>
+        <div className="flex items-center gap-4 rounded-2xl bg-white/50 px-4 py-2 shadow-sm ring-1 ring-[#d9d1bf]">
+          <img
+            src="/help-harvest-logo.png"
+            alt="Help & Harvest logo"
+            className="h-20 w-auto object-contain md:h-24"
+          />
+        </div>
 
           <nav className="hidden items-center gap-6 text-sm font-medium text-[#5f553e] md:flex">
             <a href="#eggs" className="hover:text-[#2f2a1f]">Our Eggs</a>
