@@ -29,18 +29,16 @@ export default function HelpHarvestEggsWebsite() {
     <div className="min-h-screen bg-[#fbf8ef] text-[#2f2a1f]">
       <header className="sticky top-0 z-40 border-b border-[#e7ddc4] bg-[#fbf8ef]/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
-        <div className="flex items-center gap-3">
-          <img
-            src="/help-harvest-logo.png"
-            alt="Help & Harvest logo"
-            className="h-14 w-auto object-contain md:h-16"
-          />
-          <div className="hidden sm:block">
-            <p className="text-xs tracking-wide text-[#6f654c]">
-              Farm Fresh Eggs • Kuna, Idaho
-            </p>
+          <div className="flex items-center gap-3">
+            <img
+              src="/help-harvest-logo.png"
+              alt="Help & Harvest logo"
+              className="h-14 w-auto object-contain md:h-16"
+            />
+            <div className="hidden sm:block">
+              <p className="text-xs tracking-wide text-[#6f654c]">Farm Fresh Eggs • Kuna, Idaho</p>
+            </div>
           </div>
-        </div>
 
           <nav className="hidden items-center gap-6 text-sm font-medium text-[#5f553e] md:flex">
             <a href="#eggs" className="hover:text-[#2f2a1f]">Our Eggs</a>
@@ -55,6 +53,17 @@ export default function HelpHarvestEggsWebsite() {
       </header>
 
       <main>
+        <section className="border-b border-[#e7ddc4] bg-[#496b3a] px-5 py-3 text-white">
+          <div className="mx-auto flex max-w-6xl flex-col items-center justify-center gap-1 text-center sm:flex-row sm:gap-3">
+            <p className="font-semibold tracking-wide">
+              Eggs available this week.
+            </p>
+            <span className="hidden sm:inline text-white/60">•</span>
+            <p className="text-white/90">
+              Monday Kuna delivery spots currently open.
+            </p>
+          </div>
+        </section>
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(232,201,106,0.35),_transparent_35%),radial-gradient(circle_at_bottom_left,_rgba(73,107,58,0.18),_transparent_40%)]" />
 
