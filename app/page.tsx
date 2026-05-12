@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const ORDER_EMAIL = "hello@helpandharvest.com";
+const ORDER_EMAIL = "hello@helpandharvestfarm.com";
 const EGG_PRICE = "$5";
 
 const orderMailto = `mailto:${ORDER_EMAIL}?subject=Egg%20Order%20Request&body=Hi%20Help%20%26%20Harvest%2C%0A%0AI%20would%20like%20to%20order%20eggs.%0A%0ANumber%20of%20dozens%3A%0ALocation%3A%0APickup%20or%20Monday%20delivery%3A%0A%0AThank%20you!`;
